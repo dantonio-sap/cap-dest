@@ -7,6 +7,7 @@
 - To run locally without deploying, create default-env.json in root of project with crednentials and name with environment variables from corresponding service keys
 
 Example:
+```javascript
 {
   "VCAP_SERVICES": {
     "xsuaa": [
@@ -31,3 +32,4 @@ Example:
     ]
   }
 }
+```
