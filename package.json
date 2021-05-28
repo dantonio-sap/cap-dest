@@ -15,7 +15,9 @@
     "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run",
+    "build": "mbt build",
+    "deploy": "cf deploy mta_archives/cap-dest_$npm_package_version.mtar"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",

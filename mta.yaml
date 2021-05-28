@@ -26,7 +26,19 @@ modules:
     - name: srv-api      # required by consumers of CAP services (e.g. approuter)
       properties:
         srv-url: ${default-url}
+   requires:
+    - name: cf-uaa
+    - name: cf-destinations
 
+resources:
+  - name: cf-uaa
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-plan: application
+      service: xsuaa
+
+  - name: cf-destinations
+    type: org.cloudfoundry.existing-service
 
 
 
