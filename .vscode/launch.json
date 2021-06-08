@@ -9,7 +9,9 @@
       "name": "cds run",
       "request": "launch",
       "type": "node-terminal",
-      "skipFiles": [ "<node_internals>/**" ]
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     },
     {
       "name": "debug",
@@ -36,6 +38,6 @@
         "NODE_ENV": "development",
         "run.config": "{\"handlerId\":\"cap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/cap-soap\\\",\\\"profileName\\\":\\\"development\\\"}\"}"
       }
-    },
+    }
   ]
 }

@@ -1,0 +1,1 @@
+using DestinationService as service from '../../srv/destination-service';

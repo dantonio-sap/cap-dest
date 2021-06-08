@@ -12,6 +12,7 @@
     "express": "^4"
   },
   "devDependencies": {
+    "@sap/ux-specification": "^1.90.0",
     "sqlite3": "^5.0.2"
   },
   "scripts": {
@@ -43,5 +44,8 @@
       "no-console": "off",
       "require-atomic-updates": "off"
     }
-  }
+  },
+  "sapux": [
+    "app/project1"
+  ]
 }
